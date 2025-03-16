@@ -1,2 +1,52 @@
 
 /* Your CSS Code here. */
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+section {
+            padding: 1rem;
+            margin: 0.5rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        aside {
+            background-color: #eee;
+            padding: 1rem;
+            margin: 0.5rem 1rem;
+            border-left: 5px solid #ddd;
+        }
+ footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
